@@ -4,6 +4,7 @@ export default {
 	theme: {
 		extend: {
 		  width: {
+			'600': '600px',
 			'800': '800px',
 		  },
 		},
