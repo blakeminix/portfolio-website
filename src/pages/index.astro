@@ -5,7 +5,7 @@ import Card from '../components/Card.astro';
 
 <Layout title="Blake Minix">
 	<div class="flex flex-wrap">
-    <main class="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-2">
+    <main class="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-4">
 		<div class="sticky top-20">
 		<div class="flex justify-center items-center mb-14">
 			<img src="/blake.png" alt="Blake Minix" class="w-24 h-24 rounded-full mr-6">
@@ -15,15 +15,96 @@ import Card from '../components/Card.astro';
 		</div>
 		</div>
 	</main>
-	<main class="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mt-20">
-		<p class="bg-gray-800 p-6 rounded-lg text-lg mb-8">
-			Hi, I'm Blake. Welcome to my portfolio website! It's currently a work in progress. In the meantime, check out the links below!
+	<main class="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mt-20 ml-4">
+		<p class="rounded-lg text-base mb-20">
+			Hi, I'm Blake. Welcome to my portfolio website!
+			 I'm passionate about building powerful websites and applications.<br /><br />
+			 I'm a computer science student at Georgia Tech and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
+			 which basically means that my specialty is in the inner workings of computers and in how devices communicate with each other.<br /><br />
+			 Throughout my educational journey, I have been gathered experience that has allowed me to grow as a life-long learner and as an effective developer. Over the past year, 
+			 I have had the opportunity to build software for a MAANG company, and to familiarize myself with the tools and technologies that are necessary for successful project development.
+			 This rewarding experience has led me to challenge myself through a variety of personal endeavors, growing at every opportunity.<br /><br />
+			 In my free time, I enjoy playing video games, keeping up with my favorite sports teams, and spending time with family.
 		</p>
-		<ul role="list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-			<Card href="https://www.linkedin.com/in/blakeminix/" title="LinkedIn" body="Connect with me on LinkedIn!" />
-			<Card href="https://github.com/blakeminix" title="GitHub" body="Check out my open-sourced projects." />
-			<Card href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" title="Content Management System" body="Check out my deployed content management system." />
-			<Card href="https://github.com/blakeminix/Content-Management-System" title="Content Management System Repository" body="Check out the repository of my content management system." />
+		<p class="rounded-lg text-3xl mb-8">
+			Technical Skills
+		</p>
+		<ul role="list" class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mb-20">
+			<a class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
+				<p class="font-normal text-gray-400">Java</p>
+				<p class="font-normal text-gray-400">JavaScript</p>
+				<p class="font-normal text-gray-400">TypeScript</p>
+				<p class="font-normal text-gray-400">Python</p>
+				<p class="font-normal text-gray-400">C</p>
+				<p class="font-normal text-gray-400">HTML</p>
+				<p class="font-normal text-gray-400">CSS</p>
+			</a>
+			<a class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">Libraries and Frameworks</h3>
+				<p class="font-normal text-gray-400">React</p>
+				<p class="font-normal text-gray-400">Next.js</p>
+				<p class="font-normal text-gray-400">Lit</p>
+				<p class="font-normal text-gray-400">Redux</p>
+				<p class="font-normal text-gray-400">Astro</p>
+				<p class="font-normal text-gray-400">Tailwind CSS</p>
+			</a>
+			<a class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">Databases</h3>
+				<p class="font-normal text-gray-400">Firebase</p>
+				<p class="font-normal text-gray-400">MySQL</p>
+			</a>
+			<a class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">Tools and Technologies</h3>
+				<p class="font-normal text-gray-400">Vite</p>
+				<p class="font-normal text-gray-400">Git</p>
+				<p class="font-normal text-gray-400">Material Design</p>
+				<p class="font-normal text-gray-400">bcrypt</p>
+				<p class="font-normal text-gray-400">JWT</p>
+				<p class="font-normal text-gray-400">Docker</p>
+			</a>
+		</ul>
+		<p class="rounded-lg text-3xl mb-8">
+			Projects
+		</p>
+		<ul role="list" class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-6 mb-20">
+			<div class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">Content Management System</h3>
+				<p class="font-normal text-gray-400 mb-2">A content management system built with Next.js, React, and a MySQL database hosted through JawsDB. (Deployed with Heroku)</p>
+				<div class="flex items-center">
+					<a href="https://github.com/blakeminix/Content-Management-System" target="_blank" rel="noopener noreferrer" class="mr-6">
+						<img src="/GitHub.png" alt="GitHub" class="w-12 h-12 rounded-full">
+					</a>
+					<a href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="mr-6">
+						Deployed Site
+					</a>
+					<a href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">blakeminix.com</h3>
+				<p class="font-normal text-gray-400 mb-2">A portfolio website for Blake Minix built with Astro, React, TypeScript, and Tailwind CSS. (Deployed with Firebase)</p>
+				<div class="flex items-center">
+					<a href="https://github.com/blakeminix/blakeminix.com" target="_blank" rel="noopener noreferrer" class="mr-6">
+						<img src="/GitHub.png" alt="GitHub" class="w-12 h-12 rounded-full">
+					</a>
+					<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" class="mr-6">
+						Deployed Site
+					</a>
+					<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" class="mr-6">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+				<h3 class="mb-2 text-2xl font-bold tracking-tight text-white">Google ChromeOS Whiteboard</h3>
+				<p class="font-normal text-gray-400 mb-4">Lit</p>
+				<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" class="mr-6">
+					Learn More
+				</a>
+			</div>
 		</ul>
 	</main>
 	</div>
