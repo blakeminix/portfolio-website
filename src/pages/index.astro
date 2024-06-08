@@ -1,30 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Home from '../components/Home.tsx';
 ---
 
 <Layout title="Blake Minix">
-	<div class="flex flex-wrap">
-    <main class="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-2">
-		<div class="sticky top-20">
-		<div class="flex justify-center items-center mb-14">
-			<img src="/blake.png" alt="Blake Minix" class="w-24 h-24 rounded-full mr-6">
-			<h1 class="text-6xl font-bold leading-none">
-				<span class="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Blake Minix</span>
-			</h1>
-		</div>
-		</div>
-	</main>
-	<main class="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mt-20">
-		<p class="bg-gray-800 p-6 rounded-lg text-lg mb-8">
-			Hi, I'm Blake. Welcome to my portfolio website! It's currently a work in progress. In the meantime, check out the links below!
-		</p>
-		<ul role="list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-			<Card href="https://www.linkedin.com/in/blakeminix/" title="LinkedIn" body="Connect with me on LinkedIn!" />
-			<Card href="https://github.com/blakeminix" title="GitHub" body="Check out my open-sourced projects." />
-			<Card href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" title="Content Management System" body="Check out my deployed content management system." />
-			<Card href="https://github.com/blakeminix/Content-Management-System" title="Content Management System Repository" body="Check out the repository of my content management system." />
-		</ul>
-	</main>
-	</div>
+	<Home client:load />
 </Layout>
