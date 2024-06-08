@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     	<div className="flex flex-wrap">
     		<main className="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-4">
 				<div className="sticky top-20">
-					<div className="flex justify-center items-center mb-16">
+					<div className="flex justify-center items-center mb-20">
 						<img src="/blake.png" alt="Blake Minix" className="w-24 h-24 rounded-full mr-6" />
 						<div>
 							<h1 className="text-6xl font-bold leading-none mb-2">
@@ -26,17 +26,32 @@ const Home: React.FC = () => {
 							</h1>
 						</div>
 					</div>
-					<div>
-                    	<button onClick={() => scrollToSection(aboutRef)}>About</button>
+					<div className='ml-4 mb-24'>
+                    	<button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-3xl bg-clip-text">About Me</span></button>
 						<br /><br />
-                    	<button onClick={() => scrollToSection(technicalRef)}>Technical Skills</button>
+                    	<button onClick={() => scrollToSection(technicalRef)}><span className="font-bold text-3xl bg-clip-text">Technical Skills</span></button>
 						<br /><br />
-                    	<button onClick={() => scrollToSection(projectsRef)}>Projects</button>
+                    	<button onClick={() => scrollToSection(projectsRef)}><span className="font-bold text-3xl bg-clip-text">Projects</span></button>
                 	</div>
+					<div className='p-4 flex items-center'>
+						<a href="https://www.linkedin.com/in/blakeminix/" target="_blank" rel="noopener noreferrer" className="mr-12">
+							<img src="/LinkedIn.png" alt="LinkedIn" className="w-14 h-14" />
+						</a>
+						<a href="https://github.com/blakeminix" target="_blank" rel="noopener noreferrer" className="mr-12">
+							<img src="/GitHub.png" alt="GitHub" className="w-16 h-16 rounded-full" />
+						</a>
+						<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-12 text-2xl">
+							Resume
+						</a>
+						<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="text-2xl">
+							Email Me
+						</a>
+					</div>
 				</div>
 			</main>
-			<main className="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mt-20 ml-4">
-				<p className="rounded-lg text-base mb-20" ref={aboutRef} id="about">
+			<main className="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mt-6 ml-4">
+				<p className="h-14" ref={aboutRef}></p>
+				<p className="rounded-lg text-base mb-12" id="about">
 					Hi, I'm Blake. Welcome to my portfolio website!
 			 		I'm passionate about building powerful websites and applications.<br /><br />
 			 		I'm a computer science student at Georgia Tech and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
@@ -46,10 +61,11 @@ const Home: React.FC = () => {
 			 		This rewarding experience has led me to challenge myself through a variety of personal endeavors, growing at every opportunity.<br /><br />
 			 		In my free time, I enjoy playing video games, keeping up with my favorite sports teams, and spending time with family.
 				</p>
-				<p className="rounded-lg text-3xl mb-8" ref={technicalRef} id="technical">
+				<p className="h-8" ref={technicalRef}></p>
+				<p className="rounded-lg text-3xl mb-8" id="technical">
 					Technical Skills
 				</p>
-				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mb-20">
+				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
 						<p className="font-normal text-gray-400">Java</p>
@@ -84,7 +100,8 @@ const Home: React.FC = () => {
 						<p className="font-normal text-gray-400">Docker</p>
 					</a>
 				</ul>
-				<p className="rounded-lg text-3xl mb-8" ref={projectsRef} id="projects">
+				<p className="h-8" ref={projectsRef}></p>
+				<p className="rounded-lg text-3xl mb-8" id="projects">
 					Projects
 				</p>
 				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-6 mb-20">
