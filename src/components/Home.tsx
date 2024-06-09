@@ -57,7 +57,7 @@ const Home: React.FC = () => {
 			 		I'm a computer science student at Georgia Tech and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
 			 		which basically means that my specialty is in the inner workings of computers and in how devices communicate with each other.<br /><br />
 			 		Throughout my educational journey, I have been gathered experience that has allowed me to grow as a life-long learner and as an effective developer. Over the past year, 
-			 		I have had the opportunity to build software for a MAANG company, and to familiarize myself with the tools and technologies that are necessary for successful project development.
+			 		I have had the opportunity to build software for a MAANG company, and to familiarize myself with the tools and technologies that are necessary for successful software development.
 			 		This rewarding experience has led me to challenge myself through a variety of personal endeavors, growing at every opportunity.<br /><br />
 			 		In my free time, I enjoy playing video games, keeping up with my favorite sports teams, and spending time with family.
 				</p>
@@ -94,6 +94,7 @@ const Home: React.FC = () => {
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Tools and Technologies</h3>
 						<p className="font-normal text-gray-400">Vite</p>
 						<p className="font-normal text-gray-400">Git</p>
+						<p className="font-normal text-gray-400">VS Code</p>
 						<p className="font-normal text-gray-400">Heroku</p>
 						<p className="font-normal text-gray-400">Firebase Hosting</p>
 						<p className="font-normal text-gray-400">Material Design</p>
