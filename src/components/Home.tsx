@@ -78,11 +78,11 @@ const Home: React.FC = () => {
 					</a>
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Libraries and Frameworks</h3>
-						<p className="font-normal text-gray-400">React</p>
 						<p className="font-normal text-gray-400">Next.js</p>
+						<p className="font-normal text-gray-400">Astro</p>
+						<p className="font-normal text-gray-400">React</p>
 						<p className="font-normal text-gray-400">Lit</p>
 						<p className="font-normal text-gray-400">Redux</p>
-						<p className="font-normal text-gray-400">Astro</p>
 						<p className="font-normal text-gray-400">Tailwind CSS</p>
 					</a>
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
@@ -94,6 +94,8 @@ const Home: React.FC = () => {
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Tools and Technologies</h3>
 						<p className="font-normal text-gray-400">Vite</p>
 						<p className="font-normal text-gray-400">Git</p>
+						<p className="font-normal text-gray-400">Heroku</p>
+						<p className="font-normal text-gray-400">Firebase Hosting</p>
 						<p className="font-normal text-gray-400">Material Design</p>
 						<p className="font-normal text-gray-400">bcrypt</p>
 						<p className="font-normal text-gray-400">JWT</p>
@@ -115,7 +117,7 @@ const Home: React.FC = () => {
 							<a href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="mr-6">
 								Deployed Site
 							</a>
-							<a>
+							<a href='/content-management-system'>
 								Learn More
 							</a>
 						</div>
@@ -130,7 +132,7 @@ const Home: React.FC = () => {
 							<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-6">
 								Deployed Site
 							</a>
-							<a className="mr-6">
+							<a className="mr-6" href="/portfolio">
 								Learn More
 							</a>
 						</div>
@@ -138,7 +140,7 @@ const Home: React.FC = () => {
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Google ChromeOS Whiteboard</h3>
 						<p className="font-normal text-gray-400 mb-4">A native collaborative whiteboard application for Google ChromeOS built with Lit, Vite, Redux, Firebase, and TypeScript.</p>
-						<a className="mr-6">
+						<a className="mr-6" href="whiteboard">
 							Learn More
 						</a>
 					</div>
