@@ -11,7 +11,7 @@ const Whiteboard: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col lg:flex-row mx-auto w-full max-w-screen-lg pr-8 lg:px-0 -space-y-16 lg:space-y-4 lg:space-x-32">
+        <div className="flex flex-col lg:flex-row mx-auto w-full max-w-screen-lg pr-8 lg:px-0 -space-y-20 lg:space-y-4 lg:space-x-32">
 		<main className="mx-auto p-4 w-full lg:w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-4 mb-6 lg:mb-0">
 			<div className="sticky top-16">
 				<div className='fixed top-0 left-0 w-full lg:w-[calc(20%-1rem)] lg:ml-20 lg:top-2 bg-gray-900 z-10 p-4'>
@@ -26,14 +26,14 @@ const Whiteboard: React.FC = () => {
 					</h1>
 				</div>
                 <div className='ml-4 mb-0 lg:mb-40'>
-                    <button onClick={() => scrollToSection(techRef)}><span className="font-bold text-3xl bg-clip-text">Tech Stack</span></button>
+                    <button onClick={() => scrollToSection(techRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Tech Stack</span></button>
 					<br /><br />
-                    <button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-3xl bg-clip-text">About the Project</span></button>
+                    <button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">About the Project</span></button>
                 </div>
 			</div>
 		</main>
 		<main className="mx-auto p-4 w-full lg:w-[calc(56%)] text-white text-lg leading-relaxed mt-6 lg:mt-0 ml-4 lg:ml-0">
-			<p className="h-20 lg:h-14" ref={techRef}></p>
+			<p className="h-16 lg:h-14" ref={techRef}></p>
 			<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-0 lg:mb-12">
 				<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 					<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
@@ -58,7 +58,7 @@ const Whiteboard: React.FC = () => {
 					<p className="font-normal text-gray-400">Material Design</p>
 				</a>
 			</ul>
-			<p className="h-20 lg:h-14"></p>
+			<p className="h-16 lg:h-14"></p>
 			<p className="rounded-lg text-3xl mb-6 lg:mb-8" ref={aboutRef}>
 				About the Project
 			</p>
