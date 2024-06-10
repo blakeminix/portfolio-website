@@ -12,60 +12,60 @@ const Home: React.FC = () => {
     };
 
     return (
-    	<div className="flex flex-wrap">
-    		<main className="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-4">
+    	<div className="flex flex-col lg:flex-row mx-auto w-full max-w-screen-lg pr-8 lg:px-0 -space-y-16 lg:space-y-4 lg:space-x-32">
+    		<main className="mx-auto p-4 w-full lg:w-[calc(50%-1rem)] text-white text-lg leading-relaxed mr-4 mb-6 lg:mb-0">
 				<div className="sticky top-20">
-					<div className="flex justify-center items-center mb-20">
-						<img src="/blake.png" alt="Blake Minix" className="w-24 h-24 rounded-full mr-6" />
+					<div className="flex justify-center items-center mb-14 lg:mb-20">
+						<img src="/blake.png" alt="Blake Minix" className="w-20 h-20 rounded-full mr-6" />
 						<div>
-							<h1 className="text-6xl font-bold leading-none mb-2">
+							<h1 className="text-4xl lg:text-5xl font-bold leading-none mb-2">
 								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Blake Minix</span>
 							</h1>
-							<h1 className="text-2xl font-bold leading-none">
+							<h1 className="text-sm lg:text-lg font-bold leading-none">
 								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Georgia Institue of Technology</span>
 							</h1>
 						</div>
 					</div>
-					<div className='ml-4 mb-24'>
-                    	<button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-3xl bg-clip-text">About Me</span></button>
+					<div className='ml-4 mb-12 lg:mb-24'>
+                    	<button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">About Me</span></button>
 						<br /><br />
-                    	<button onClick={() => scrollToSection(technicalRef)}><span className="font-bold text-3xl bg-clip-text">Technical Skills</span></button>
+                    	<button onClick={() => scrollToSection(technicalRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Technical Skills</span></button>
 						<br /><br />
-                    	<button onClick={() => scrollToSection(projectsRef)}><span className="font-bold text-3xl bg-clip-text">Projects</span></button>
+                    	<button onClick={() => scrollToSection(projectsRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Projects</span></button>
                 	</div>
 					<div className='p-4 flex items-center'>
-						<a href="https://www.linkedin.com/in/blakeminix/" target="_blank" rel="noopener noreferrer" className="mr-12">
-							<img src="/LinkedIn.png" alt="LinkedIn" className="w-12 h-12" />
+						<a href="https://www.linkedin.com/in/blakeminix/" target="_blank" rel="noopener noreferrer" className="mr-10">
+							<img src="/LinkedIn.png" alt="LinkedIn" className="w-8 lg:w-8 h-8 lg:h-8" />
 						</a>
-						<a href="https://github.com/blakeminix" target="_blank" rel="noopener noreferrer" className="mr-12">
-							<img src="/GitHub.png" alt="GitHub" className="w-14 h-14 rounded-full" />
+						<a href="https://github.com/blakeminix" target="_blank" rel="noopener noreferrer" className="mr-10">
+							<img src="/GitHub.png" alt="GitHub" className="w-8 lg:w-10 h-8 lg:h-10 rounded-full" />
 						</a>
-						<a href="https://drive.google.com/file/d/1yovgcc2tQbt2C7_Nu-5XwCsvi1_KVd3T/view" target="_blank" rel="noopener noreferrer" className="mr-12 text-2xl">
+						<a href="https://drive.google.com/file/d/1yovgcc2tQbt2C7_Nu-5XwCsvi1_KVd3T/view" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
 							Resume
 						</a>
-						<a href="mailto:blakeminix2@gmail.com" className="text-2xl">
+						<a href="mailto:blakeminix2@gmail.com" className="text-sm lg:text-lg">
 							Email Me
 						</a>
 					</div>
 				</div>
 			</main>
-			<main className="mx-auto p-4 w-600 max-w-full sm:max-w-[calc(50%-1rem)] text-white text-lg leading-relaxed mt-6 ml-4">
+			<main className="mx-auto p-4 w-full lg:w-[calc(56%)] text-white text-lg leading-relaxed mt-6 lg:mt-0 ml-4 lg:ml-0">
 				<p className="h-14" ref={aboutRef}></p>
-				<p className="rounded-lg text-base mb-12" id="about">
+				<p className="rounded-lg text-base mb-4 lg:mb-12" id="about">
 					Hi, I'm Blake. Welcome to my portfolio website!
 			 		I'm passionate about building powerful websites and applications.<br /><br />
 			 		I'm a computer science student at Georgia Tech and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
 			 		which basically means that my specialty is in the inner workings of computers and in how devices communicate with each other.<br /><br />
-			 		Throughout my educational journey, I have been gathered experience that has allowed me to grow as a life-long learner and as an effective developer. Over the past year, 
+			 		Throughout my educational journey, I have gathered experience that has allowed me to grow as a life-long learner and as an effective developer. Over the past year, 
 			 		I have had the opportunity to build software for a MAANG company, and to familiarize myself with the tools and technologies that are necessary for successful software development.
 			 		This rewarding experience has led me to challenge myself through a variety of personal endeavors, growing at every opportunity.<br /><br />
 			 		In my free time, I enjoy playing video games, keeping up with my favorite sports teams, and spending time with family.
 				</p>
 				<p className="h-8" ref={technicalRef}></p>
-				<p className="rounded-lg text-3xl mb-8" id="technical">
+				<p className="rounded-lg text-3xl mb-6 lg:mb-8" id="technical">
 					Technical Skills
 				</p>
-				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mb-12">
+				<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-4 lg:mb-12">
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
 						<p className="font-normal text-gray-400">Java</p>
@@ -104,7 +104,7 @@ const Home: React.FC = () => {
 					</a>
 				</ul>
 				<p className="h-8" ref={projectsRef}></p>
-				<p className="rounded-lg text-3xl mb-8" id="projects">
+				<p className="rounded-lg text-3xl mb-6 lg:mb-8" id="projects">
 					Projects
 				</p>
 				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-6 mb-20">
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
 							<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-6">
 								Deployed Site
 							</a>
-							<a className="mr-6" href="/portfolio">
+							<a href="/portfolio">
 								Learn More
 							</a>
 						</div>
