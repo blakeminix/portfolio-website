@@ -17,7 +17,7 @@ const Whiteboard: React.FC = () => {
 				<div className='fixed top-0 left-0 w-full lg:w-[calc(20%-1rem)] lg:ml-20 lg:top-2 bg-gray-900 z-10 p-4'>
 					<a href="/." className="text-white text-sm"><span>&larr;</span> Back to Home</a>
 				</div>
-				<div className="flex flex-col justify-center items-center mb-12 lg:mb-24">
+				<div className="flex flex-col justify-center items-center mb-12 lg:mb-20">
 					<h1 className="text-3xl font-bold leading-none mt-16 lg:mt-4">
 						<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">ChromeOS Whiteboard</span>
 					</h1>

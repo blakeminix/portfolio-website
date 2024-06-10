@@ -17,12 +17,12 @@ const Portfolio: React.FC = () => {
 				<div className='fixed top-0 left-0 w-full lg:w-[calc(20%-1rem)] lg:ml-20 lg:top-2 bg-gray-900 z-10 p-4'>
 					<a href="/." className="text-white text-sm"><span>&larr;</span> Back to Home</a>
 				</div>
-				<div className="flex justify-center items-center mb-12 lg:mb-32">
+				<div className="flex justify-center items-center mb-12 lg:mb-20">
 					<h1 className="text-4xl font-bold leading-none mt-12 lg:mt-4">
 						<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">blakeminix.com</span>
 					</h1>
 				</div>
-                <div className='ml-4 mb-8 lg:mb-40'>
+                <div className='ml-4 mb-8 lg:mb-24'>
                     <button onClick={() => scrollToSection(techRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Tech Stack</span></button>
 					<br /><br />
                     <button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">About the Project</span></button>

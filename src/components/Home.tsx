@@ -22,7 +22,7 @@ const Home: React.FC = () => {
 								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Blake Minix</span>
 							</h1>
 							<h1 className="text-sm lg:text-lg font-bold leading-none">
-								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Georgia Institue of Technology</span>
+								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Georgia Institute of Technology</span>
 							</h1>
 						</div>
 					</div>
