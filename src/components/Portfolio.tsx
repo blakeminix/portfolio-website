@@ -38,8 +38,8 @@ const Portfolio: React.FC = () => {
 			</div>
 		</main>
 		<main className="mx-auto p-4 w-full lg:w-[calc(56%)] text-white text-lg leading-relaxed mt-6 lg:mt-0 ml-4 lg:ml-0">
-			<p className="h-14" ref={techRef}></p>
-			<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6 mb-4 lg:mb-12">
+			<p className="h-20 lg:h-14" ref={techRef}></p>
+			<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-0 lg:mb-12">
 				<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 					<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
 					<p className="font-normal text-gray-400">TypeScript</p>
@@ -59,7 +59,7 @@ const Portfolio: React.FC = () => {
 					<p className="font-normal text-gray-400">Firebase Hosting</p>
 				</a>
 			</ul>
-			<p className="h-8"></p>
+			<p className="h-20 lg:h-14"></p>
 			<p className="rounded-lg text-3xl mb-6 lg:mb-8" ref={aboutRef}>
 				About the Project
 			</p>
