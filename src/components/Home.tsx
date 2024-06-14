@@ -19,10 +19,10 @@ const Home: React.FC = () => {
 						<img src="/blake.png" alt="Blake Minix" className="w-20 h-20 rounded-full mr-6" />
 						<div>
 							<h1 className="text-4xl lg:text-5xl font-bold leading-none mb-2">
-								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Blake Minix</span>
+								<button onClick={() => scrollToSection(aboutRef)} className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Blake Minix</button>
 							</h1>
 							<h1 className="text-sm lg:text-lg font-bold leading-none">
-								<span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Georgia Institute of Technology</span>
+								<a href="https://www.gatech.edu/"  target="_blank" rel="noopener noreferrer" className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Georgia Institute of Technology</a>
 							</h1>
 						</div>
 					</div>
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
 				<p className="rounded-lg text-3xl mb-6 lg:mb-8" id="technical">
 					Technical Skills
 				</p>
-				<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-4 lg:mb-12">
+				<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mb-4 lg:mb-12">
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
 						<p className="font-normal text-gray-400">Java</p>
@@ -109,8 +109,9 @@ const Home: React.FC = () => {
 				</p>
 				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-6 mb-20">
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
-						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Content Management System</h3>
-						<p className="font-normal text-gray-400 mb-2">A content management system built with Next.js, React, Tailwind CSS, and a MySQL database hosted through JawsDB. (Deployed with Heroku)</p>
+						<a href='/content-management-system' className="mb-2 text-2xl font-bold tracking-tight text-white">Content Management System</a>
+						<img src="/dashboard.PNG" alt="CMS Screenshot" className="mt-4 mb-4 rounded-lg" />
+						<p className="font-normal text-gray-400 mt-2 mb-4">A content management system built with Next.js, React, JavaScript, Tailwind CSS, and a MySQL database hosted through JawsDB. (Deployed with Heroku)</p>
 						<div className="flex items-center">
 							<a href="https://github.com/blakeminix/Content-Management-System" target="_blank" rel="noopener noreferrer" className="mr-6">
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
@@ -124,8 +125,9 @@ const Home: React.FC = () => {
 						</div>
 					</div>
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
-						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">blakeminix.com</h3>
-						<p className="font-normal text-gray-400 mb-2">A portfolio website for Blake Minix built with Astro, React, TypeScript, and Tailwind CSS. (Deployed with Firebase)</p>
+						<a href='/portfolio' className="mb-2 text-2xl font-bold tracking-tight text-white">blakeminix.com</a>
+						<img src="/blakeminix-com.PNG" alt="blakeminix.com Screenshot" className="mt-4 mb-4 rounded-lg" />
+						<p className="font-normal text-gray-400 mt-2 mb-4">A portfolio website for Blake Minix built with Astro, React, TypeScript, and Tailwind CSS. (Deployed with Firebase)</p>
 						<div className="flex items-center">
 							<a href="https://github.com/blakeminix/blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-6">
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
@@ -139,9 +141,10 @@ const Home: React.FC = () => {
 						</div>
 					</div>
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
-						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Google ChromeOS Whiteboard</h3>
-						<p className="font-normal text-gray-400 mb-4">A native collaborative whiteboard application for Google ChromeOS built with Lit, Vite, Redux, Firebase, and TypeScript.</p>
-						<a className="mr-6" href="whiteboard">
+						<a href="/whiteboard" className="mb-2 text-2xl font-bold tracking-tight text-white">Google ChromeOS Whiteboard</a>
+						<p className="font-normal text-gray-400 mt-2 mb-2">August 2023 - May 2024</p>
+						<p className="font-normal text-gray-400 mt-2 mb-4">A native collaborative whiteboard application for Google ChromeOS built with Lit, Vite, Redux, Firebase, and TypeScript.</p>
+						<a className="mr-6" href="/whiteboard">
 							Learn More
 						</a>
 					</div>
