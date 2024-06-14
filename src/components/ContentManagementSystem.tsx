@@ -23,9 +23,9 @@ const ContentManagementSystem: React.FC = () => {
 					</h1>
 				</div>
                 <div className='ml-4 mb-8 lg:mb-24'>
-                    <button onClick={() => scrollToSection(techRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Tech Stack</span></button>
+					<button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">About the Project</span></button>
 					<br /><br />
-                    <button onClick={() => scrollToSection(aboutRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">About the Project</span></button>
+                    <button onClick={() => scrollToSection(techRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Tech Stack</span></button>
                 </div>
 				<div className='p-4 flex items-center'>
 					<a href="https://github.com/blakeminix/Content-Management-System" target="_blank" rel="noopener noreferrer" className="mr-12">
@@ -38,8 +38,20 @@ const ContentManagementSystem: React.FC = () => {
 			</div>
 		</main>
 		<main className="mx-auto p-4 w-full lg:w-[calc(56%)] text-white text-lg leading-relaxed mt-6 lg:mt-0 ml-4 lg:ml-0">
+			<p className="h-16 lg:h-14" ref={aboutRef}></p>
+			<p className="rounded-lg text-3xl mb-6 lg:mb-8">
+				About the Project
+			</p>
+			<p className="rounded-lg text-base mb-0" id="about">
+			Welcome to my Content Management System!<br /><br />
+			This project is built with Next.js, React, JavaScript, Tailwind CSS, and a MySQL database hosted through JawsDB. It is deployed on Heroku. JWT is used for session cookie encryption and bcrypt is used for secure password hashing.<br /><br />
+			This project contains implemented authorization, profiles for users, groups where users can share/store posts and media, and other pages that support the profile and group functionality such as the join group page, create group page, page not found pages, and more.<br /><br />
+			</p>
 			<p className="h-16 lg:h-14" ref={techRef}></p>
-			<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-0 lg:mb-12">
+			<p className="rounded-lg text-3xl mb-6 lg:mb-8">
+				Tech Stack
+			</p>
+			<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mb-12">
 				<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 					<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
 					<p className="font-normal text-gray-400">JavaScript</p>
@@ -55,6 +67,7 @@ const ContentManagementSystem: React.FC = () => {
 				<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 					<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Databases</h3>
 					<p className="font-normal text-gray-400">MySQL</p>
+					<p className="font-normal text-gray-400">JawsDB</p>
 				</a>
 				<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 					<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Tools and Technologies</h3>
@@ -65,13 +78,6 @@ const ContentManagementSystem: React.FC = () => {
 					<p className="font-normal text-gray-400">JWT</p>
 				</a>
 			</ul>
-			<p className="h-16 lg:h-14"></p>
-			<p className="rounded-lg text-3xl mb-6 lg:mb-8" ref={aboutRef}>
-				About the Project
-			</p>
-			<p className="rounded-lg text-base mb-12" id="about">
-				This project is a content management system with groups that users can create or join to share posts and media with other users. 
-			</p>
 		</main>
 	    </div>
     );
