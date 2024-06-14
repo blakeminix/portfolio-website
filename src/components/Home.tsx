@@ -98,8 +98,6 @@ const Home: React.FC = () => {
 						<p className="font-normal text-gray-400">Heroku</p>
 						<p className="font-normal text-gray-400">Firebase Hosting</p>
 						<p className="font-normal text-gray-400">Material Design</p>
-						<p className="font-normal text-gray-400">bcrypt</p>
-						<p className="font-normal text-gray-400">JWT</p>
 						<p className="font-normal text-gray-400">Docker</p>
 					</a>
 				</ul>
