@@ -40,7 +40,7 @@ const ContentManagementSystem: React.FC = () => {
 		<main className="mx-auto p-4 w-full lg:w-[calc(56%)] text-white text-lg leading-relaxed mt-6 lg:mt-0 ml-4 lg:ml-0">
 			<p className="h-16 lg:h-14" ref={aboutRef}></p>
 			<p className="rounded-lg text-base mb-8" id="about">
-			Welcome to my Content Management System!<br /><br />
+			Welcome to my <a href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" target="_blank" rel="noopener refferrer" className='text-blue-400 hover:underline'>Content Management System</a>!<br /><br />
 			This project is built with Next.js, React, JavaScript, Tailwind CSS, and a MySQL database hosted through JawsDB. It is deployed with Heroku. JWT is used for session cookie encryption, and bcrypt is used for secure password hashing.<br />
 			</p>
 			<p className="rounded-lg text-2xl mb-2 lg:mb-2">
