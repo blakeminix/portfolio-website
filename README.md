@@ -1,3 +1,14 @@
+# blakeminix.com
+
+Welcome to [blakeminix.com](https://blakeminix.com)!
+
+This project is built with Astro, React, TypeScript, and Tailwind CSS. It is deployed with Firebase Hosting.
+
+
+## Introduction
+This portfolio website contains my important links, an about me section, my technical skills, and my projects. For each project, the GitHub repository, the deployed site, and a detailed overview of the project is linked from the home page.
+
+
 # Astro Starter Kit: Basics
 
 ```sh
