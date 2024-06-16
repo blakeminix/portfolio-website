@@ -40,7 +40,7 @@ const Home: React.FC = () => {
 						<a href="https://github.com/blakeminix" target="_blank" rel="noopener noreferrer" className="mr-10">
 							<img src="/GitHub.png" alt="GitHub" className="w-8 lg:w-10 h-8 lg:h-10 rounded-full" />
 						</a>
-						<a href="https://drive.google.com/file/d/1yovgcc2tQbt2C7_Nu-5XwCsvi1_KVd3T/view" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
+						<a href="https://drive.google.com/file/d/1SujCXlsT6BvARv7UL2FVCJo0oALXfrEM/view" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
 							Resume
 						</a>
 						<a href="mailto:blakeminix2@gmail.com" className="text-sm lg:text-lg">
