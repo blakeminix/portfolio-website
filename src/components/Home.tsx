@@ -40,7 +40,7 @@ const Home: React.FC = () => {
 						<a href="https://github.com/blakeminix" target="_blank" rel="noopener noreferrer" className="mr-10">
 							<img src="/GitHub.png" alt="GitHub" className="w-8 lg:w-10 h-8 lg:h-10 rounded-full" />
 						</a>
-						<a href="https://drive.google.com/file/d/1SujCXlsT6BvARv7UL2FVCJo0oALXfrEM/view" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
+						<a href="https://drive.google.com/file/d/1VSOGWF1QG7G3ZP3KUz90TpZ2khmnDySr/view" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
 							Resume
 						</a>
 						<a href="mailto:blakeminix2@gmail.com" className="text-sm lg:text-lg">
@@ -54,10 +54,10 @@ const Home: React.FC = () => {
 				<p className="rounded-lg text-base mb-4 lg:mb-12" id="about">
 					Hi, I'm Blake. Welcome to my portfolio website!
 			 		I'm passionate about building powerful websites and applications.<br /><br />
-			 		I'm a computer science student at Georgia Tech and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
+			 		I'm a computer science student at <a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer" className='text-blue-400 hover:underline'>Georgia Tech</a> and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
 			 		which basically means that my specialty is in the inner workings of computers and in how devices communicate with each other.<br /><br />
 			 		Throughout my educational journey, I have gathered experience that has allowed me to grow as a life-long learner and as an effective developer. Over the past year, 
-			 		I have had the opportunity to build software for a MAANG company, and to familiarize myself with the tools and technologies that are necessary for successful software development.
+			 		I have had the opportunity to build software for a <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className='text-blue-400 hover:underline'>MAANG company</a>, and to familiarize myself with the tools and technologies that are necessary for successful software development.
 			 		This rewarding experience has led me to challenge myself through a variety of personal endeavors, growing at every opportunity.<br /><br />
 			 		In my free time, I enjoy playing video games, keeping up with my favorite sports teams, and spending time with family.
 				</p>
@@ -68,10 +68,10 @@ const Home: React.FC = () => {
 				<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mb-4 lg:mb-12">
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
-						<p className="font-normal text-gray-400">Java</p>
 						<p className="font-normal text-gray-400">JavaScript</p>
 						<p className="font-normal text-gray-400">TypeScript</p>
 						<p className="font-normal text-gray-400">Python</p>
+						<p className="font-normal text-gray-400">Java</p>
 						<p className="font-normal text-gray-400">C</p>
 						<p className="font-normal text-gray-400">HTML</p>
 						<p className="font-normal text-gray-400">CSS</p>
@@ -81,6 +81,9 @@ const Home: React.FC = () => {
 						<p className="font-normal text-gray-400">Next.js</p>
 						<p className="font-normal text-gray-400">Astro</p>
 						<p className="font-normal text-gray-400">React</p>
+						<p className="font-normal text-gray-400">Flask</p>
+						<p className="font-normal text-gray-400">Vue</p>
+						<p className="font-normal text-gray-400">TensorFlow</p>
 						<p className="font-normal text-gray-400">Lit</p>
 						<p className="font-normal text-gray-400">Redux</p>
 						<p className="font-normal text-gray-400">Tailwind CSS</p>
@@ -89,15 +92,24 @@ const Home: React.FC = () => {
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Databases</h3>
 						<p className="font-normal text-gray-400">Firebase</p>
 						<p className="font-normal text-gray-400">MySQL</p>
+						<p className="font-normal text-gray-400">JawsDB</p>
 					</a>
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Tools and Technologies</h3>
+						<p className="font-normal text-gray-400">Node.js</p>
 						<p className="font-normal text-gray-400">Vite</p>
 						<p className="font-normal text-gray-400">Git</p>
+						<p className="font-normal text-gray-400">GitHub</p>
 						<p className="font-normal text-gray-400">VS Code</p>
 						<p className="font-normal text-gray-400">Heroku</p>
+						<p className="font-normal text-gray-400">AWS (S3, EKS, EC2)</p>
+						<p className="font-normal text-gray-400">Docker</p>
+						<p className="font-normal text-gray-400">Kubernetes</p>
 						<p className="font-normal text-gray-400">Firebase Hosting</p>
+						<p className="font-normal text-gray-400">Netlify</p>
 						<p className="font-normal text-gray-400">Material Design</p>
+						<p className="font-normal text-gray-400">REST APIs</p>
+						<p className="font-normal text-gray-400">Canvas API</p>
 					</a>
 				</ul>
 				<p className="h-8" ref={projectsRef}></p>
@@ -122,11 +134,11 @@ const Home: React.FC = () => {
 						</div>
 					</div>
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
-						<a href='/portfolio' className="mb-2 text-2xl font-bold tracking-tight text-white">blakeminix.com</a>
+						<a href='/portfolio' className="mb-2 text-2xl font-bold tracking-tight text-white">Portfolio Website</a>
 						<img src="/blakeminix-com.PNG" alt="blakeminix.com Screenshot" className="mt-4 mb-4 rounded-lg" />
 						<p className="font-normal text-gray-400 mt-2 mb-4">A portfolio website for Blake Minix built with Astro, React, TypeScript, and Tailwind CSS. (Deployed with Firebase)</p>
 						<div className="flex items-center">
-							<a href="https://github.com/blakeminix/blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-6">
+							<a href="https://github.com/blakeminix/portfolio-website" target="_blank" rel="noopener noreferrer" className="mr-6">
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
 							</a>
 							<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-6">

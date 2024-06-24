@@ -19,7 +19,7 @@ const Portfolio: React.FC = () => {
 				</div>
 				<div className="flex justify-center items-center mb-12 lg:mb-20">
 					<h1 className="text-4xl font-bold leading-none mt-16 lg:mt-4">
-						<a href="https://blakeminix.com" target="_blank" rel="noopener refferrer" className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">blakeminix.com</a>
+						<a href="https://blakeminix.com" target="_blank" rel="noopener refferrer" className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-yellow-100">Portfolio Website</a>
 					</h1>
 				</div>
                 <div className='ml-4 mb-8 lg:mb-24'>
@@ -28,7 +28,7 @@ const Portfolio: React.FC = () => {
                     <button onClick={() => scrollToSection(techRef)}><span className="font-bold text-2xl lg:text-3xl bg-clip-text">Tech Stack</span></button>
                 </div>
                 <div className='p-4 flex items-center'>
-					<a href="https://github.com/blakeminix/blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-12">
+					<a href="https://github.com/blakeminix/portfolio-website" target="_blank" rel="noopener noreferrer" className="mr-12">
 						<img src="/GitHub.png" alt="GitHub" className="w-10 lg:w-12 h-10 lg:h-12 rounded-full" />
 					</a>
 					<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
