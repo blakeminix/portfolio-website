@@ -77,6 +77,7 @@ const Whiteboard: React.FC = () => {
 					<p className="font-normal text-gray-400">Git</p>
 					<p className="font-normal text-gray-400">VS Code</p>
 					<p className="font-normal text-gray-400">Material Design</p>
+					<p className="font-normal text-gray-400">Canvas API</p>
 				</a>
 			</ul>
 		</main>

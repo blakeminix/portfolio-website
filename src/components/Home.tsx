@@ -117,10 +117,26 @@ const Home: React.FC = () => {
 					Projects
 				</p>
 				<ul role="list" className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 gap-6 mb-20">
+				<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
+						<a href='/image-recognition-platform' className="mb-2 text-2xl font-bold tracking-tight text-white">Image Recognition Platform</a>
+						<img src="/prediction.PNG" alt="IRP Screenshot" className="mt-4 mb-4 rounded-lg" />
+						<p className="font-normal text-gray-400 mt-2 mb-4">A machine learning model, a back-end server, and a front-end application for classification of user-submitted images built with TensorFlow, Flask, Python, Node.js, Vue, JavaScript, Tailwind CSS, AWS S3, Heroku, Netlify, Docker, and REST APIs.</p>
+						<div className="flex items-center">
+							<a href="https://github.com/blakeminix/image-recognition-model" target="_blank" rel="noopener noreferrer" className="mr-6">
+								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
+							</a>
+							<a href="https://img-recognition.netlify.app" target="_blank" rel="noopener noreferrer" className="mr-6">
+								Deployed Site
+							</a>
+							<a href='/image-recognition-platform'>
+								Learn More
+							</a>
+						</div>
+					</div>
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<a href='/content-management-system' className="mb-2 text-2xl font-bold tracking-tight text-white">Content Management System</a>
 						<img src="/dashboard.PNG" alt="CMS Screenshot" className="mt-4 mb-4 rounded-lg" />
-						<p className="font-normal text-gray-400 mt-2 mb-4">A content management system built with Next.js, React, JavaScript, Tailwind CSS, and a MySQL database hosted through JawsDB. (Deployed with Heroku)</p>
+						<p className="font-normal text-gray-400 mt-2 mb-4">A content management system built with Next.js, React, JavaScript, Tailwind CSS, REST APIs, and a MySQL database hosted through JawsDB. (Deployed with Heroku)</p>
 						<div className="flex items-center">
 							<a href="https://github.com/blakeminix/Content-Management-System" target="_blank" rel="noopener noreferrer" className="mr-6">
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
