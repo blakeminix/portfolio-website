@@ -126,7 +126,7 @@ const Home: React.FC = () => {
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
 							</a>
 							<a href="https://img-recognition.netlify.app" target="_blank" rel="noopener noreferrer" className="mr-6">
-								Deployed Site
+								Live Site
 							</a>
 							<a href='/image-recognition-platform'>
 								Learn More
@@ -142,7 +142,7 @@ const Home: React.FC = () => {
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
 							</a>
 							<a href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="mr-6">
-								Deployed Site
+								Live Site
 							</a>
 							<a href='/content-management-system'>
 								Learn More
@@ -158,7 +158,7 @@ const Home: React.FC = () => {
 								<img src="/GitHub.png" alt="GitHub" className="w-12 h-12 rounded-full" />
 							</a>
 							<a href="https://blakeminix.com" target="_blank" rel="noopener noreferrer" className="mr-6">
-								Deployed Site
+								Live Site
 							</a>
 							<a href="/portfolio">
 								Learn More
