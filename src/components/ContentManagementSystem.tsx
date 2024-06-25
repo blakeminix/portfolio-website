@@ -32,7 +32,7 @@ const ContentManagementSystem: React.FC = () => {
 						<img src="/GitHub.png" alt="GitHub" className="w-10 lg:w-12 h-10 lg:h-12 rounded-full" />
 					</a>
 					<a href="https://content-management-system-32ddcdcefaf8.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
-						Deployed Site
+						Live Site
 					</a>
 				</div>
 			</div>
