@@ -40,7 +40,7 @@ const Portfolio: React.FC = () => {
 		<main className="mx-auto p-4 w-full lg:w-[calc(56%)] text-white text-lg leading-relaxed mt-6 lg:mt-0 ml-4 lg:ml-0">
 			<p className="h-16 lg:h-14" ref={aboutRef}></p>
 			<p className="rounded-lg text-base mb-8" id="about">
-				Welcome to <a href="https://blakeminix.com" target="_blank" rel="noopener refferrer" className='text-blue-400 hover:underline'>blakeminix.com</a>!<br /><br />
+				Welcome to <a href="https://blakeminix.com" target="_blank" rel="noopener refferrer" className='text-blue-400 hover:underline'>my portfolio website</a>!<br /><br />
 				This project is built with Astro, React, TypeScript, and Tailwind CSS. It is deployed with Firebase Hosting.<br />
 			</p>
 			<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r mb-0 lg:mb-2">
