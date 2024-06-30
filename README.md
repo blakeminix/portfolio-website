@@ -1,6 +1,6 @@
-# blakeminix.com
+# Portfolio Website
 
-Welcome to [blakeminix.com](https://blakeminix.com)!
+Welcome to [my portfolio website](https://blakeminix.com)!
 
 This project is built with Astro, React, TypeScript, and Tailwind CSS. It is deployed with Firebase Hosting.
 
