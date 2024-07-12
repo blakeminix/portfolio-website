@@ -65,24 +65,27 @@ const Home: React.FC = () => {
 				<p className="rounded-lg text-3xl mb-6 lg:mb-8" id="technical">
 					Technical Skills
 				</p>
-				<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4 mb-4 lg:mb-12">
+				<ul role="list" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 mb-4 lg:mb-12">
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Programming Languages</h3>
-						<p className="font-normal text-gray-400">JavaScript</p>
 						<p className="font-normal text-gray-400">TypeScript</p>
+						<p className="font-normal text-gray-400">JavaScript</p>
 						<p className="font-normal text-gray-400">Python</p>
 						<p className="font-normal text-gray-400">Java</p>
 						<p className="font-normal text-gray-400">C</p>
 						<p className="font-normal text-gray-400">HTML</p>
 						<p className="font-normal text-gray-400">CSS</p>
+						<p className="font-normal text-gray-400">SASS/SCSS</p>
 					</a>
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Libraries and Frameworks</h3>
 						<p className="font-normal text-gray-400">Next.js</p>
-						<p className="font-normal text-gray-400">Astro</p>
 						<p className="font-normal text-gray-400">React</p>
-						<p className="font-normal text-gray-400">Flask</p>
+						<p className="font-normal text-gray-400">Angular</p>
 						<p className="font-normal text-gray-400">Vue</p>
+						<p className="font-normal text-gray-400">Astro</p>
+						<p className="font-normal text-gray-400">Express.js</p>
+						<p className="font-normal text-gray-400">Flask</p>
 						<p className="font-normal text-gray-400">TensorFlow</p>
 						<p className="font-normal text-gray-400">Lit</p>
 						<p className="font-normal text-gray-400">Redux</p>
@@ -90,9 +93,9 @@ const Home: React.FC = () => {
 					</a>
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Databases</h3>
-						<p className="font-normal text-gray-400">Firebase</p>
+						<p className="font-normal text-gray-400">MongoDB</p>
+						<p className="font-normal text-gray-400">Firestore</p>
 						<p className="font-normal text-gray-400">MySQL</p>
-						<p className="font-normal text-gray-400">JawsDB</p>
 					</a>
 					<a className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<h3 className="mb-2 text-2xl font-bold tracking-tight text-white">Tools and Technologies</h3>
@@ -106,6 +109,8 @@ const Home: React.FC = () => {
 						<p className="font-normal text-gray-400">Docker</p>
 						<p className="font-normal text-gray-400">Kubernetes</p>
 						<p className="font-normal text-gray-400">Firebase Hosting</p>
+						<p className="font-normal text-gray-400">Firebase Authentication</p>
+						<p className="font-normal text-gray-400">Vercel</p>
 						<p className="font-normal text-gray-400">Netlify</p>
 						<p className="font-normal text-gray-400">Material Design</p>
 						<p className="font-normal text-gray-400">REST APIs</p>
@@ -168,7 +173,7 @@ const Home: React.FC = () => {
 					<div className="block p-6 w-full bg-gray-800 rounded-lg border border-gray-700 transition duration-300 hover:bg-gradient-to-r">
 						<a href="/whiteboard" className="mb-2 text-2xl font-bold tracking-tight text-white">Google ChromeOS Whiteboard</a>
 						<p className="font-normal text-gray-400 mt-2 mb-2">August 2023 - May 2024</p>
-						<p className="font-normal text-gray-400 mt-2 mb-4">A native collaborative whiteboard application for Google ChromeOS built with Lit, Vite, Redux, Firebase, and TypeScript.</p>
+						<p className="font-normal text-gray-400 mt-2 mb-4">A native collaborative whiteboard application for Google ChromeOS built with Lit, Vite, Redux, Firestore, and TypeScript.</p>
 						<a className="mr-6" href="/whiteboard">
 							Learn More
 						</a>
