@@ -115,6 +115,7 @@ const Home: React.FC = () => {
 						<p className="font-normal text-gray-400">Material Design</p>
 						<p className="font-normal text-gray-400">REST APIs</p>
 						<p className="font-normal text-gray-400">Canvas API</p>
+						<p className="font-normal text-gray-400">Jira</p>
 					</a>
 				</ul>
 				<p className="h-8" ref={projectsRef}></p>
