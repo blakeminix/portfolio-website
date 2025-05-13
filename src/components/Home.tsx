@@ -40,7 +40,7 @@ const Home: React.FC = () => {
 						<a href="https://github.com/blakeminix" target="_blank" rel="noopener noreferrer" className="mr-10">
 							<img src="/GitHub.png" alt="GitHub" className="w-8 lg:w-10 h-8 lg:h-10 rounded-full" />
 						</a>
-						<a href="https://drive.google.com/file/d/1VSOGWF1QG7G3ZP3KUz90TpZ2khmnDySr/view" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
+						<a href="https://drive.google.com/file/d/1UqTFpDNeafITZ6U6GHvGKG_YKK78q4SM/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="mr-10 text-sm lg:text-lg">
 							Resume
 						</a>
 						<a href="mailto:blakeminix2@gmail.com" className="text-sm lg:text-lg">
@@ -54,12 +54,13 @@ const Home: React.FC = () => {
 				<p className="rounded-lg text-base mb-4 lg:mb-12" id="about">
 					Hi, I'm Blake. Welcome to my portfolio website!
 			 		I'm passionate about building powerful websites and applications.<br /><br />
-			 		I'm a computer science student at <a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer" className='text-blue-400 hover:underline'>Georgia Tech</a> and I am expecting to graduate in December 2024 with threads in Systems & Architecture and Information Internetworks,
+			 		I graduated with a Bachelor's degree in computer science from <a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer" className='text-blue-400 hover:underline'>Georgia Tech</a> in December 2024 with threads in Systems & Architecture and Information Internetworks,
 			 		which basically means that my specialty is in the inner workings of computers and in how devices communicate with each other.<br /><br />
-			 		Throughout my educational journey, I have gathered experience that has allowed me to grow as a life-long learner and as an effective developer. Over the past year, 
-			 		I have had the opportunity to build software for a <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className='text-blue-400 hover:underline'>MAANG company</a>, and to familiarize myself with the tools and technologies that are necessary for successful software development.
+			 		Throughout my educational journey, I've gathered experience that has allowed me to grow as a life-long learner and as an effective developer. 
+			 		I have had the opportunity to build software for a <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" className='text-blue-400 hover:underline'>MAANG company</a>, and to gain expertise with the tools and technologies that are necessary for successful software development.
 			 		This rewarding experience has led me to challenge myself through a variety of personal endeavors, growing at every opportunity.<br /><br />
-			 		In my free time, I enjoy playing video games, keeping up with my favorite sports teams, and spending time with family.
+			 		In my free time, I enjoy coding, building projects, and learning new technologies. I also love to play video games, watch movies, and spend time with my friends and family.
+			 		I'm always looking for new opportunities to learn and grow, so if you have any questions or would like to connect, feel free to reach out!
 				</p>
 				<p className="h-8" ref={technicalRef}></p>
 				<p className="rounded-lg text-3xl mb-6 lg:mb-8" id="technical">
